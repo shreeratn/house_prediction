@@ -4,14 +4,21 @@ House price prediction for hackerearth project
 ##Feature Details
 | **Feature name** | **Feature Description**                      |**Input as**     |
 |------------------|----------------------------------------------|-----------------|
+| LotFrontage      | Linear feet of street connected to property  |Numeric(1234.123)|
 | LotArea          | Lot size in square feet                      |Numeric(1234.123)|
-| Neighborhood     | Physical locations within city limits        |
+| Neighborhood     | Physical locations within city limits        |Code(As below)   |
+| OverallQual      | Overall material and finish quality          |Rating(1-10)     |
 | YearBuilt        | Original construction date                   |Year(YYYY,2012)  |
+| YearRemodAdd     | Remodel date                                 |Year(YYYY,2012)  |
+| MasVnrArea       | Masonry veneer area in square feet           |Numeric(1234.123)|
 | BsmtFinSF1       | Finished square feet                         |Numeric(1234.123)|
+| BsmtUnfSF        | Unfinished square feet of basement area      |Numeric(1234.123)|
 | TotalBsmtSF      | Total square feet of basement area           |Numeric(1234.123)|
 | 1stFlrSF         | First Floor square feet                      |Numeric(1234.123)|
+| 2ndFlrSF         | Second floor square feet                     |Numeric(1234.123)|
 | GrLivArea        | Above grade (ground) living area square feet |Numeric(1234.123)|
 | GarageArea       | Size of garage in square feet                |Numeric(1234.123)|
+| OpenPorchSF      | Open porch area in square feet               |Numeric(1234.123)|
 
 ##Neighborhood details
 | **Shortform**                     | **Fullname**                          |**Code** |
